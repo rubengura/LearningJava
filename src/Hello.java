@@ -17,5 +17,13 @@ public class Hello {
             System.out.println("I'm inside the if statement yet");
         }
 
+        // Ternary operations
+        int clientAge = 20;
+        //                       condition   yes return | no return
+        boolean isOverEighteen = clientAge >= 18 ? true : false;
+
+        if (isOverEighteen)
+            System.out.println("The client has more than 18 years");
+
     }
 }
