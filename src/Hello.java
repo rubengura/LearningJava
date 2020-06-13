@@ -25,5 +25,20 @@ public class Hello {
         if (isOverEighteen)
             System.out.println("The client has more than 18 years");
 
+        boolean gameOver = false;
+        int score = 1000;
+        int level = 5;
+        int bonus = 100;
+
+        int finalScore;
+        if (gameOver) {
+            finalScore = score + (level * bonus);
+            System.out.println("Final score: " + finalScore);
+        } else {
+            finalScore = score;
+        }
+
+        System.out.println("Your final score: " + finalScore);
+
     }
 }
