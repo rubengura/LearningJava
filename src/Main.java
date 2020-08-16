@@ -11,5 +11,8 @@ public class Main {
         double height = wall.getHeight();
         double area = wall.getArea();
         System.out.println("");
+
+
+        MinutesToYearsDaysCalculator.printYearsAndDays(1440);
     }
 }
