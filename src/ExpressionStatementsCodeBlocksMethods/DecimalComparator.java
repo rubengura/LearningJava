@@ -1,3 +1,5 @@
+package ExpressionStatementsCodeBlocksMethods;
+
 public class DecimalComparator {
     public static boolean areEqualByThreeDecimalPlaces(double firstNumber, double secondNumber) {
         if (firstNumber < 0) {

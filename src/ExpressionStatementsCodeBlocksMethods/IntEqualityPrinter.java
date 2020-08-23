@@ -1,3 +1,5 @@
+package ExpressionStatementsCodeBlocksMethods;
+
 public class IntEqualityPrinter {
     public static void printEqual(int firstParam, int secondParam, int thirdParam) {
         if (firstParam < 0 || secondParam < 0 || thirdParam < 0) {
