@@ -1,3 +1,4 @@
+import ControlFlowStatements.NumberPalindrome;
 import ExpressionStatementsCodeBlocksMethods.*;
 
 public class Main {
@@ -16,5 +17,6 @@ public class Main {
         IntEqualityPrinter.printEqual(1,1,1);
 
         MinutesToYearsDaysCalculator.printYearsAndDays(1440);
+        NumberPalindrome.isPalindrome(1441);
     }
 }
